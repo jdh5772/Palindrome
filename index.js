@@ -11,9 +11,9 @@ checkBtn.addEventListener('click',()=>{
         alert('Please input a value');
     } else{
         if(text === reverseText){
-            result.innerHTML = `${textInput.value} 는 앞뒤가 같음`;
+            result.innerHTML = `입력값 : ${textInput.value} - 거꾸로 해도 같음`;
         } else{
-            result.innerHTML = `${textInput.value} 는 앞뒤가 다름`;
+            result.innerHTML = `입력값 : ${textInput.value} - 거꾸로 하면 다름`;
         }
     }
 })
